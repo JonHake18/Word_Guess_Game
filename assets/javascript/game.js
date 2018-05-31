@@ -97,7 +97,8 @@ Hangman.prototype.updatePageData = function() {
 	tempString = losses + "";
 	for (var i = tempString.length; i < 43; i++) {
 		tempString += " ";
-    }
+	}
+	lossCount.textContent = tempString;
 }
 
 game.updatePageData();
